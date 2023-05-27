@@ -87,7 +87,7 @@ window.FlowPaperViewerEmbedding = window.$f = function(id, args) {
     _JSONFile 			= (config.JSONFile!=null?config.JSONFile:_JSONFile);
     _jsDirectory 		= (config.jsDirectory!=null?config.jsDirectory:FLOWPAPER.detectjsdir());
     _cssDirectory 		= (config.cssDirectory!=null?config.cssDirectory:FLOWPAPER.detectcssdir());
-    _localeDirectory 	= (config.localeDirectory!=null?config.localeDirectory:"locale/");
+    _localeDirectory 	= (config.localeDirectory!=null?config.localeDirectory:"https://github.com/RawBeefPotatoMan/HKI-PDF-VIEWER/tree/main/locale/");
     if(_SWFFile!=null && _SWFFile.indexOf("{" )==0 && _SWFFile.indexOf("[*," ) > 0 && _SWFFile.indexOf("]" ) > 0){_SWFFile = escape(_SWFFile);} // split file fix
 
     // routine for *.flowpaper.com hosted domains
@@ -252,7 +252,7 @@ window.FlowPaperViewerEmbedding = window.$f = function(id, args) {
         RenderingOrder 			: config.RenderingOrder,
 
         TrackingNumber          : config.TrackingNumber,
-        localeChain 			: (config.localeChain!=null)?config.localeChain:"en_US",
+        localeChain 			: (config.localeChain!=null)?config.localeChain:"de_DE",
         jsDirectory 			: _jsDirectory,
         cssDirectory 			: _cssDirectory,
         localeDirectory			: _localeDirectory,
