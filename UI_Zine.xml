@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FlowPaper_Zine_UIConfiguration>
     <desktop>
-        <general imageAssets="assets_zine/material" backgroundColor="#333333" panelColor="#555555" arrowColor="#aaaaaa" backgroundAlpha="1" navPanelBackgroundAlpha="0" enableFisheyeThumbnails="true" selectionColor="#AAAAAA" rollOverColor="#999999" fitModeScale="0.85" fitModeScaleMargin="-0.1" navPanelsVisible="true" zoomDragMode="true" bindBindNavigationKeys="true"/>
+        <general imageAssets="https://github.com/RawBeefPotatoMan/HKI-PDF-VIEWER/tree/main/assets_zine/material" backgroundColor="#333333" panelColor="#555555" arrowColor="#aaaaaa" backgroundAlpha="1" navPanelBackgroundAlpha="0" enableFisheyeThumbnails="true" selectionColor="#AAAAAA" rollOverColor="#999999" fitModeScale="0.85" fitModeScaleMargin="-0.1" navPanelsVisible="true" zoomDragMode="true" bindBindNavigationKeys="true"/>
         <toolbar height="40" width="100%" paddingTop="9" paddingLeft="15" paddingRight="15" paddingBottom="8" backgroundColor="#555555" borderColor="#555555" borderStyle="solid" borderThickness="1" cornerRadius="3" horizontalAlign="center" location="top" visible="true">
             <element type="button" id="bttnPrint" icon_width="15" icon_height="15" visible="true"/>
             <element type="button" id="bttnOutline" icon_width="13" icon_height="13" paddingTop="1" visible="false" />
